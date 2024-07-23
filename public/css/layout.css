@@ -39,13 +39,14 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
+ 
 /* vertically center banner section */
 header:before {
    content: '';
    display: inline-block;
    vertical-align: middle;
    height: 100%;
+   background: rgba(0, 0, 0, 0.8); /* Adjust the opacity as needed */
 }
 header .banner {
    display: inline-block;
@@ -446,6 +447,10 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+}
+
+.portfolio-item:hover {
+   transform: scale(1.05);
 }
 
 /* overlay */
