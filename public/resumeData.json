@@ -1,45 +1,40 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Yattish Ramhorry",
+    "occupation": "Harnessing the mystical powers of caffeine to write lines of code faster than the average mortal, fueled by the eternal quest for the perfect brew.",
+    "description": "Passionate about all things tech",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "bio": "Hi there! I am Yattish, a skilled and results-driven professional with a strong background in data analytics, business intelligence, and technology solutions. With extensive experience in creating insightful dashboards and implementing strategic data-driven initiatives, I excel at translating complex data into actionable insights. My expertise in data warehousing and data analysis has led to successful projects and improved decision-making for organizations. I am a dedicated team player with a passion for innovation, and I am committed to driving growth and efficiency through data-driven strategies.",
+    "contactmessage": "Get in touch with me to chat about any project ideas!",
+    "email": "yattish@gmail.com",
+    "phone": "+27 1234567899",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
+      "street": "33 Node JS Lane",
+      "city": "Johannesburg",
+      "state": "Gauteng",
       "zip": "W3B D3V"
     },
-    "website": "https://www.papareact.com/course",
+    "website": "http://linkedin.com/in/yattishramhorry",
     "resumedownload": "http://papareact.com",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://www.facebook.com/yattishr",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "http://linkedin.com/in/yattishramhorry",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://www.instagram.com/yattishr/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/yattishr",
         "className": "fa fa-github"
       }
     ]
@@ -48,74 +43,101 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
-      }
+        "school": "University of South Africa (UNISA)",
+        "degree": "National Diploma Information Technology",
+        "graduated": "June 1998"
+      },
+      {
+        "school": "FreeCodeCamp",
+        "degree": "Back End Development and APIs",
+        "graduated": "April 27, 2023"
+      },
+      {
+        "school": "FreeCodeCamp",
+        "degree": "Responsive Web Design",
+        "graduated": "June 21, 2021"
+      }      
     ],
     "work": [
       {
-        "company": "PAPA",
+        "company": "4IR Technologies",
         "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "years": "June 2016 - Present",
+        "description": "Data Strategist"
       }
     ],
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "45%"
       },
       {
         "name": "Python",
-        "level": "85%"
+        "level": "40%"
       },
       {
         "name": "Git",
-        "level": "70%"
+        "level": "60%"
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "50%"
       },
       {
         "name": "Web Development",
-        "level": "95%"
+        "level": "60%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "React Demo Dashboard",
         "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "image": "react-dashboard.png",
+        "url": "https://react-demo-dashboard.netlify.app"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Google Shopping Clone",
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "google-shopping.png",
+        "url": "https://react-demo-dashboard.netlify.app"
+      },      
+      {
+        "title": "Disney+ Clone",
+        "category": "",
+        "image": "disney-clone.png",
+        "url": "https://react-demo-dashboard.netlify.app"
+      },            
+      {
+        "title": "Edu Ford Uni",
+        "category": "",
+        "image": "eduford-uni.png",
+        "url": "https://eduforduni.netlify.app"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Power Gym",
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "power-gym.png",
+        "url": "https://powergymsite.netlify.app"
+      },      
+      {
+        "title": "Travel Life",
+        "category": "",
+        "image": "travel-life.png",
+        "url": "https://travel-life.netlify.app"
       }
     ]
   },
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Compiler whisperer: An individual capable of taming the unruly syntax of programming languages, turning it from chaotic gibberish into orderly instructions.",
+        "user": "Abraham Lincoln"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "Git ninja: Mastering the art of version control, silently merging branches and resolving conflicts like a shadowy figure in the night, leaving behind a trail of well-documented commits.",
+        "user": "Albert Einstein"
       }
     ]
   }

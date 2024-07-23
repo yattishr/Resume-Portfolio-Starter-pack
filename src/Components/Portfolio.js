@@ -1,14 +1,15 @@
 import React from "react";
+import "./Portfolio.css"; // Make sure to create and include this CSS file
 
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
+        <div key={projects.title} className="portfolio-item">
           <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
+              <img alt={projects.title} src={projectImage} className="project-img" />
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
@@ -30,11 +31,7 @@ const Portfolio = ({ data }) => {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
-
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
             {projects}
           </div>
         </div>
